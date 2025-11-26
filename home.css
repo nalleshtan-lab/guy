@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+:root {
+    --primary: #d40000;
+}
+
+header {
+    background: var(--primary);
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.hero {
+    height: 300px;
+    background: url('https://picsum.photos/1200/400?travel') center/cover no-repeat;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
